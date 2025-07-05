@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 384190139}
   m_Layer: 3
   m_Name: Stage
-  m_TagString: Untagged
+  m_TagString: Stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3438,6 +3438,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1918248938117080206, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
   m_PrefabInstance: {fileID: 329542331936319905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &329542331936319908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043315879686391915, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6049108455260984419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3689,12 +3694,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: pauseUI
+      value: 
+      objectReference: {fileID: 329542331936319908}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: jumpForce
+      value: 5.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: forwardForce
       value: 4000
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: sidewaysForce
-      value: 125
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: particleSystem
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

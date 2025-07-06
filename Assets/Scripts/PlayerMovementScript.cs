@@ -16,6 +16,8 @@ public class PlayerMovementScript : MonoBehaviour {
     public GameObject particleObject;
     private ParticleSystem sparkleParticles;
     private float ballRadius = 0.5f;
+    
+    private CountdownManager countdownManager;
 
     void Start() {
         if (particleObject != null) {
@@ -24,9 +26,15 @@ public class PlayerMovementScript : MonoBehaviour {
         if (pauseUI != null) {
             pauseUI.SetActive(false);
         }
+        
+        countdownManager = FindObjectOfType<CountdownManager>();
     }
 
     void Update() {
+        if (countdownManager != null && !countdownManager.IsCountdownFinished()) {
+            return;
+        }
+        
         if (Input.GetKeyDown(KeyCode.Space)) {
             PauseGame();
         }
@@ -57,6 +65,10 @@ public class PlayerMovementScript : MonoBehaviour {
     }
     
     void FixedUpdate() {
+        if (countdownManager != null && !countdownManager.IsCountdownFinished()) {
+            return;
+        }
+        
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) {
             rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.Force);
@@ -70,10 +82,6 @@ public class PlayerMovementScript : MonoBehaviour {
             rb.AddForce(0, jumpForce, 0, ForceMode.VelocityChange);
             jumpPressed = false;
             isOnStage = false;
-        }
-
-        if (rb.position.y < -1f) {
-            FindAnyObjectByType<GameManager>().EndGame();
         }
     }
 

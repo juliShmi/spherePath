@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; //change or reload the scene
+using UnityEngine.SceneManagement;
 
 public enum GameMode { NORMAL, HARD }
 
@@ -25,11 +25,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void EndGame() { //public is used to find the script in the PlayerCollision script
+    public void EndGame() {
         if (gameHasEnded == false) {
             gameHasEnded = true;
-            Invoke("Restart", restartDelay); //invoke is used to call the function after 2 seconds
+            Invoke("Restart", restartDelay);
         }
     }
 

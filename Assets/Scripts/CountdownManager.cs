@@ -1,0 +1,172 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
+
+public class CountdownManager : MonoBehaviour
+{
+    [Header("UI Elements")]
+    [SerializeField] private TextMeshProUGUI countdownText;
+    [SerializeField] private GameObject countdownPanel;
+    
+    [Header("Countdown Settings")]
+    [SerializeField] private int countdownDuration = 3;
+    [SerializeField] private float countdownInterval = 1f;
+    [SerializeField] private float goDisplayTime = 0.5f;
+    
+    [Header("Player Control")]
+    [SerializeField] private PlayerMovementScript playerMovement;
+    [SerializeField] private Rigidbody playerRigidbody;
+    
+    private bool countdownFinished = false;
+    private Coroutine countdownCoroutine;
+    
+    #region Unity Lifecycle
+    
+    void Start()
+    {
+        InitializeComponents();
+        StartInitialCountdown();
+    }
+    
+    #endregion
+    
+    #region Initialization
+    
+    private void InitializeComponents()
+    {
+        if (playerMovement == null)
+            playerMovement = FindFirstObjectByType<PlayerMovementScript>();
+            
+        if (playerRigidbody == null && playerMovement != null)
+            playerRigidbody = playerMovement.GetComponent<Rigidbody>();
+    }
+    
+    private void StartInitialCountdown()
+    {
+        PauseGame();
+        ShowCountdownUI();
+        StartCountdownSequence();
+    }
+    
+    #endregion
+    
+    #region Countdown Control
+    
+    public void RestartCountdown()
+    {
+        StopCurrentCountdown();
+        ResetCountdownState();
+        StartCountdownSequence();
+    }
+    
+    public void SkipCountdown()
+    {
+        if (!countdownFinished)
+        {
+            StopCurrentCountdown();
+            ResumeGame();
+        }
+    }
+    
+    public bool IsCountdownFinished() => countdownFinished;
+    
+    private void StartCountdownSequence()
+    {
+        countdownCoroutine = StartCoroutine(CountdownCoroutine());
+    }
+    
+    private void StopCurrentCountdown()
+    {
+        if (countdownCoroutine != null)
+        {
+            StopCoroutine(countdownCoroutine);
+            countdownCoroutine = null;
+        }
+    }
+    
+    private void ResetCountdownState()
+    {
+        countdownFinished = false;
+        PauseGame();
+        ShowCountdownUI();
+    }
+    
+    #endregion
+    
+    #region Game State Management
+    
+    private void PauseGame()
+    {
+        Time.timeScale = 0f;
+        DisablePlayerControl();
+    }
+    
+    private void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        EnablePlayerControl();
+        HideCountdownUI();
+        countdownFinished = true;
+    }
+    
+    private void DisablePlayerControl()
+    {
+        if (playerMovement != null)
+            playerMovement.enabled = false;
+            
+        if (playerRigidbody != null)
+            playerRigidbody.isKinematic = true;
+    }
+    
+    private void EnablePlayerControl()
+    {
+        if (playerMovement != null)
+            playerMovement.enabled = true;
+            
+        if (playerRigidbody != null)
+            playerRigidbody.isKinematic = false;
+    }
+    
+    #endregion
+    
+    #region UI Management
+    
+    private void ShowCountdownUI()
+    {
+        if (countdownPanel != null)
+            countdownPanel.SetActive(true);
+    }
+    
+    private void HideCountdownUI()
+    {
+        if (countdownPanel != null)
+            countdownPanel.SetActive(false);
+    }
+    
+    private void UpdateCountdownText(string text)
+    {
+        if (countdownText != null)
+            countdownText.text = text;
+    }
+    
+    #endregion
+    
+    #region Coroutines
+    
+    private IEnumerator CountdownCoroutine()
+    {
+        for (int i = countdownDuration; i > 0; i--)
+        {
+            UpdateCountdownText(i.ToString());
+            yield return new WaitForSecondsRealtime(countdownInterval);
+        }
+        
+        UpdateCountdownText("GO!");
+        yield return new WaitForSecondsRealtime(goDisplayTime);
+        
+        ResumeGame();
+    }
+    
+    #endregion
+} 

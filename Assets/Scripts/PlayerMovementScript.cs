@@ -27,7 +27,7 @@ public class PlayerMovementScript : MonoBehaviour {
             pauseUI.SetActive(false);
         }
         
-        countdownManager = FindObjectOfType<CountdownManager>();
+        countdownManager = FindFirstObjectByType<CountdownManager>();
     }
 
     void Update() {

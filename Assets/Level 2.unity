@@ -448,6 +448,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: lifePanel
+      value: 
+      objectReference: {fileID: 329542331936319906}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: scorePanel
+      value: 
+      objectReference: {fileID: 1862975287}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
       propertyPath: countdownText
       value: 
       objectReference: {fileID: 329542331936319910}
@@ -475,6 +483,10 @@ PrefabInstance:
     - target: {fileID: 825266603326770730, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
       propertyPath: m_Name
       value: FinishGate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590885328945151932, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.19
       objectReference: {fileID: 0}
     - target: {fileID: 4213989976585792803, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2736,6 +2748,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e5b0b3017ea94a1cb2fa887673f7d66, type: 3}
+--- !u!1 &1862975287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8294290542864481201, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1884735224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3383,7 +3400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2125070837086316090, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 339
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 2368585232651881379, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_Pivot.x
@@ -3476,6 +3493,10 @@ PrefabInstance:
     - target: {fileID: 2856059844966618282, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063195634207383260, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8294290542864481201, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_IsActive

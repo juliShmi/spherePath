@@ -8,6 +8,8 @@ public class CountdownManager : MonoBehaviour
     [Header("UI Elements")]
     [SerializeField] private TextMeshProUGUI countdownText;
     [SerializeField] private GameObject countdownPanel;
+    [SerializeField] private GameObject lifePanel;
+    [SerializeField] private GameObject scorePanel;
     
     [Header("Countdown Settings")]
     [SerializeField] private int countdownDuration = 3;
@@ -136,12 +138,20 @@ public class CountdownManager : MonoBehaviour
     {
         if (countdownPanel != null)
             countdownPanel.SetActive(true);
+        if (lifePanel != null)
+            lifePanel.SetActive(false);
+        if (scorePanel != null)
+            scorePanel.SetActive(false);
     }
     
     private void HideCountdownUI()
     {
         if (countdownPanel != null)
             countdownPanel.SetActive(false);
+        if (lifePanel != null)
+            lifePanel.SetActive(true);
+        if (scorePanel != null)
+            scorePanel.SetActive(true);
     }
     
     private void UpdateCountdownText(string text)

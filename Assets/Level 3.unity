@@ -517,6 +517,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: lifePanel
+      value: 
+      objectReference: {fileID: 329542331936319906}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: scorePanel
+      value: 
+      objectReference: {fileID: 401970274}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
       propertyPath: countdownText
       value: 
       objectReference: {fileID: 329542331936319909}
@@ -775,6 +783,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &401970274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8294290542864481201, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &422179731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6076149163805344060, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
@@ -2893,6 +2906,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishGate
       objectReference: {fileID: 0}
+    - target: {fileID: 1590885328945151932, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590885328945151932, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4213989976585792803, guid: 0858d1ae8ea7341c2b7be82ede319cde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.89
@@ -3797,7 +3818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2125070837086316090, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 334
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 2368585232651881379, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_Pivot.x

@@ -53,12 +53,11 @@ public class LifeManager : MonoBehaviour
         lives = 3;
         hardModeLives = 3;
         UpdateLifeIcons();
-        Debug.Log("LifeIcons: " + lifeIcons.Length);
     }
 
     private void UpdateLifeIcons() {
         for (int i = 0; i < lifeIcons.Length; i++) {
-            lifeIcons[i].enabled = i < lives;
+            lifeIcons[i].enabled = i >= (lifeIcons.Length - lives);
         }
     }
 

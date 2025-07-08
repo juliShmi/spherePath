@@ -7,6 +7,7 @@ public class PlayerCollision : MonoBehaviour
     public AudioClip collisionSound;
     private bool isCollided = false;
     private Vector3 startPosition;
+    private Vector3 lastGroundedPosition;
     private CountdownManager countdownManager;
 
     void Start() {
@@ -14,6 +15,7 @@ public class PlayerCollision : MonoBehaviour
             audioSource = GetComponent<AudioSource>();
         }
         startPosition = transform.position;
+        lastGroundedPosition = startPosition;
     }
 
     void Update() {
@@ -23,6 +25,9 @@ public class PlayerCollision : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collisionInfo) {
+        if (collisionInfo.collider.tag == "Stage") {
+            lastGroundedPosition = transform.position;
+        }
         if (collisionInfo.collider.tag == "Obstacle" && !isCollided) {
             HandleObstacleCollision();
         }
@@ -38,13 +43,10 @@ public class PlayerCollision : MonoBehaviour
 
     private void HandleObstacleCollision() {
         isCollided = true;
-        
         if (audioSource != null && collisionSound != null) {
             audioSource.PlayOneShot(collisionSound);
         }
-        
         LifeManager.instance.TakeLife();
-        
         if (LifeManager.instance.GetLives() < 0) {
             GameOver();
         } else {
@@ -54,17 +56,33 @@ public class PlayerCollision : MonoBehaviour
 
     private void HandleFall() {
         isCollided = true;
-        
         if (audioSource != null && collisionSound != null) {
             audioSource.PlayOneShot(collisionSound);
         }
-        
         LifeManager.instance.TakeLife();
-        
         if (LifeManager.instance.GetLives() < 0) {
             GameOver();
         } else {
-            ReturnToStart();
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+
+            GameObject stage = GameObject.FindWithTag("Stage");
+            float y = 1f;
+            if (stage != null) {
+                Collider col = stage.GetComponent<Collider>();
+                if (col != null) {
+                    y = col.bounds.max.y + 1f;
+                } else {
+                    y = stage.transform.position.y + 1f;
+                }
+            }
+            transform.position = new Vector3(lastGroundedPosition.x, y, lastGroundedPosition.z);
+            isCollided = false;
+            countdownManager = FindFirstObjectByType<CountdownManager>();
+            if (countdownManager != null) {
+                countdownManager.RestartCountdown();
+            }
         }
     }
 
@@ -73,20 +91,5 @@ public class PlayerCollision : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         FindAnyObjectByType<GameManager>().ShowFailPanel();
         Time.timeScale = 0;
-    }
-
-    private void ReturnToStart() {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
-        
-        transform.position = startPosition;
-        
-        isCollided = false;
-        
-        countdownManager = FindFirstObjectByType<CountdownManager>();
-        if (countdownManager != null) {
-            countdownManager.RestartCountdown();
-        }
     }
 }

@@ -2012,6 +2012,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+--- !u!1 &590196301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043315879686391915, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 1617145175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &595842800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5706,6 +5711,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2856059844966618282, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+    - target: {fileID: 2856059844966618282, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TryAgain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856059844966618282, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8294290542864481201, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7753,18 +7770,18 @@ PrefabInstance:
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: pauseUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 590196301}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: jumpForce
-      value: 6
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: forwardForce
-      value: 4500
+      value: 4000
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: sidewaysForce
-      value: 3000
+      value: 2500
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: particleSystem

@@ -23,7 +23,7 @@ public class PlayerCollision : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collisionInfo) {
-        if (collisionInfo.collider.tag == "Obstacle" && !isCollided && IsOnGround()) {
+        if (collisionInfo.collider.tag == "Obstacle" && !isCollided) {
             HandleObstacleCollision();
         }
     }

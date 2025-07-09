@@ -16,6 +16,12 @@ public class CountdownManager : MonoBehaviour
     [SerializeField] private float countdownInterval = 1f;
     [SerializeField] private float goDisplayTime = 0.5f;
     
+    [Header("Countdown Sounds")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip countdownClip; // Весь файл 3-2-1-GO
+    [SerializeField] private float[] soundStartTimes; // Временные метки начала каждого звука
+    [SerializeField] private float[] soundDurations;  // Длительность каждого звука
+    
     [Header("Player Control")]
     [SerializeField] private PlayerMovementScript playerMovement;
     [SerializeField] private Rigidbody playerRigidbody;
@@ -169,13 +175,34 @@ public class CountdownManager : MonoBehaviour
         for (int i = countdownDuration; i > 0; i--)
         {
             UpdateCountdownText(i.ToString());
+            PlayCountdownSound(countdownDuration - i); // 0:3, 1:2, 2:1
             yield return new WaitForSecondsRealtime(countdownInterval);
         }
-        
+
         UpdateCountdownText("GO!");
+        PlayCountdownSound(soundStartTimes.Length - 1); // последний — GO!
         yield return new WaitForSecondsRealtime(goDisplayTime);
-        
+
         ResumeGame();
+    }
+
+    private void PlayCountdownSound(int index)
+    {
+        if (audioSource != null && countdownClip != null && soundStartTimes != null && soundDurations != null
+            && index >= 0 && index < soundStartTimes.Length)
+        {
+            audioSource.clip = countdownClip;
+            audioSource.time = soundStartTimes[index];
+            audioSource.Play();
+            StartCoroutine(StopSoundAfterDuration(soundDurations[index]));
+        }
+    }
+
+    private IEnumerator StopSoundAfterDuration(float duration)
+    {
+        yield return new WaitForSecondsRealtime(duration);
+        if (audioSource != null)
+            audioSource.Stop();
     }
     
     #endregion

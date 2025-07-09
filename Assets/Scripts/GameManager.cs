@@ -66,6 +66,13 @@ public class GameManager : MonoBehaviour
     public void TryAgain() {
         Time.timeScale = 1;
         Destroy(LifeManager.instance.gameObject);
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        StartCoroutine(LoadStartSceneWithDelay());
+    }
+
+    private IEnumerator LoadStartSceneWithDelay() {
+        yield return new WaitForSecondsRealtime(0.2f);
         SceneManager.LoadScene("WelcomeScreen");
     }
 }

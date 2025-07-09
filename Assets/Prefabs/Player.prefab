@@ -311,6 +311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 409600498223703102}
   pauseUI: {fileID: 0}
+  audioSource: {fileID: 7575888536613566844}
+  jumpSound: {fileID: 8300000, guid: c03e5a7d38ea74f5f9046d0dc897ff2b, type: 3}
   forwardForce: 3500
   sidewaysForce: 120
   jumpForce: 5

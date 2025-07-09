@@ -5,6 +5,10 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public Rigidbody rb;
     public GameObject pauseUI;
+
+    public AudioSource audioSource;
+    public AudioClip jumpSound;
+
     public float forwardForce = 2000f;
     public float sidewaysForce = 50f;
     public float jumpForce = 5f;
@@ -20,6 +24,9 @@ public class PlayerMovementScript : MonoBehaviour {
     private CountdownManager countdownManager;
 
     void Start() {
+        if (audioSource == null) {
+            audioSource = GetComponent<AudioSource>();
+        }
         if (particleObject != null) {
             sparkleParticles = particleObject.GetComponent<ParticleSystem>();
         }
@@ -45,6 +52,9 @@ public class PlayerMovementScript : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) {
             jumpPressed = true;
+            if (audioSource != null && jumpSound != null) {
+                audioSource.PlayOneShot(jumpSound);
+            }
         }
         UpdateParticlePosition();
     }

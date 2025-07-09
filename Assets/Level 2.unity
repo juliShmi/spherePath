@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -231,6 +235,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7522284741596333598, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Constraints
@@ -297,6 +305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -357,6 +369,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -419,6 +435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -479,6 +499,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -541,6 +565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -601,6 +629,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -663,6 +695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -724,6 +760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -784,6 +824,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -988,6 +1032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1049,6 +1097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1070,12 +1122,13 @@ GameObject:
   - component: {fileID: 384190141}
   - component: {fileID: 384190140}
   - component: {fileID: 384190139}
+  - component: {fileID: 384190143}
   m_Layer: 3
   m_Name: Stage
   m_TagString: Stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &384190139
 BoxCollider:
@@ -1166,6 +1219,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &384190143
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384190138}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!1 &422179731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6076149163805344060, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
@@ -1235,6 +1353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1295,6 +1417,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1357,6 +1483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1417,6 +1547,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1479,6 +1613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1539,6 +1677,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1601,6 +1743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1661,6 +1807,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1723,6 +1873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 15x1Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1783,6 +1937,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: m_Name
       value: 15x1Obstacle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1845,6 +2003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 15x1Obstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1905,6 +2067,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1967,6 +2133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2028,6 +2198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2088,6 +2262,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (04)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2234,6 +2412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2294,6 +2476,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2356,6 +2542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2416,6 +2606,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2478,6 +2672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2538,6 +2736,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2600,6 +2802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 15x1Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2660,6 +2866,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2722,6 +2932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2782,6 +2996,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -2844,6 +3062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2904,6 +3126,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7522284741596333598, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Constraints
@@ -2970,6 +3196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3030,6 +3260,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: m_Name
       value: 15x1Obstacle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3096,6 +3330,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3156,6 +3394,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: m_Name
       value: 15x1Obstacle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3218,6 +3460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3278,6 +3524,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3344,6 +3594,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3404,6 +3658,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3466,6 +3724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3527,6 +3789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3587,6 +3853,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3653,6 +3923,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3713,6 +3987,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (06)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3775,6 +4053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3836,6 +4118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3896,6 +4182,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (05)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -3963,6 +4253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 8x3Obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4023,6 +4317,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: m_Name
       value: 15x1Obstacle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4085,6 +4383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4145,6 +4447,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4211,6 +4517,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4272,6 +4582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4332,6 +4646,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (03)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4399,6 +4717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (09)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4459,6 +4781,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4521,6 +4847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4581,6 +4911,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4643,6 +4977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4703,6 +5041,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: m_Name
       value: 4x2Obstacle (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4765,6 +5107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x2Obstacle (08)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4825,6 +5171,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: m_Name
       value: 4x3Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4887,6 +5237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4x3Obstacle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -4948,6 +5302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 15x1Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5008,6 +5366,10 @@ PrefabInstance:
     - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: m_Name
       value: 8x3Obstacle (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025917061334598567, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9025384407447419855, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -5264,19 +5626,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1930575550464053128, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.0377411e-38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1930575550464053128, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 4e-45
+      value: 3.765255e-39
       objectReference: {fileID: 0}
     - target: {fileID: 1930575550464053128, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 137.125
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1930575550464053128, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1e-45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8592668827235338141, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
       propertyPath: m_LocalPosition.x

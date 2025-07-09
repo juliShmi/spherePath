@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public enum GameMode { NORMAL, HARD }
 
@@ -14,14 +15,28 @@ public class GameManager : MonoBehaviour
     public GameObject completeLevelUI;
     public GameObject lifePanel;
     public GameObject failPanel; 
+    private ButtonSound buttonSound;
+
+    void Awake() {
+        buttonSound = FindFirstObjectByType<ButtonSound>();
+    }
 
     public void SelectNormalMode() {
         selectedMode = GameMode.NORMAL;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        StartCoroutine(LoadSceneWithDelay());
     }
 
     public void SelectHardMode() {
         selectedMode = GameMode.HARD;
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        StartCoroutine(LoadSceneWithDelay());
+    }
+
+    private IEnumerator LoadSceneWithDelay() {
+        yield return new WaitForSecondsRealtime(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 public class ButtonSound : MonoBehaviour
 {
@@ -17,10 +16,5 @@ public class ButtonSound : MonoBehaviour
     {
         if (audioSource != null && clickSound != null)
             audioSource.PlayOneShot(clickSound);
-        StartCoroutine(LoadSceneWithDelay());
-    }
-
-        private IEnumerator LoadSceneWithDelay() {
-        yield return new WaitForSecondsRealtime(0.2f);
     }
 }

@@ -61,13 +61,6 @@ public class CountdownManager : MonoBehaviour
     
     #region Countdown Control
     
-    public void RestartCountdown()
-    {
-        StopCurrentCountdown();
-        ResetCountdownState();
-        StartCountdownSequence();
-    }
-    
     public void SkipCountdown()
     {
         if (!countdownFinished)

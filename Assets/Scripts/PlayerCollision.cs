@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -8,7 +9,9 @@ public class PlayerCollision : MonoBehaviour
     private bool isCollided = false;
     private Vector3 startPosition;
     private Vector3 lastGroundedPosition;
-    private CountdownManager countdownManager;
+    private Renderer playerRenderer;
+    [SerializeField] private float flashDuration = 1.0f;
+    [SerializeField] private int flashCount = 8;
 
     void Start() {
         if (audioSource == null) {
@@ -16,6 +19,7 @@ public class PlayerCollision : MonoBehaviour
         }
         startPosition = transform.position;
         lastGroundedPosition = startPosition;
+        playerRenderer = GetComponent<Renderer>();
     }
 
     void Update() {
@@ -79,10 +83,7 @@ public class PlayerCollision : MonoBehaviour
             }
             transform.position = new Vector3(lastGroundedPosition.x, y, lastGroundedPosition.z);
             isCollided = false;
-            countdownManager = FindFirstObjectByType<CountdownManager>();
-            if (countdownManager != null) {
-                countdownManager.RestartCountdown();
-            }
+            StartCoroutine(FlashPlayer());
         }
     }
 
@@ -91,5 +92,17 @@ public class PlayerCollision : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         FindAnyObjectByType<GameManager>().ShowFailPanel();
         Time.timeScale = 0;
+    }
+
+    private IEnumerator FlashPlayer()
+    {
+        if (playerRenderer == null) yield break;
+        for (int i = 0; i < flashCount; i++)
+        {
+            playerRenderer.enabled = false;
+            yield return new WaitForSecondsRealtime(flashDuration / (flashCount * 2));
+            playerRenderer.enabled = true;
+            yield return new WaitForSecondsRealtime(flashDuration / (flashCount * 2));
+        }
     }
 }

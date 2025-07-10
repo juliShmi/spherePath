@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/WelcomeScreen.unity
     guid: c59281b4d562e4d95a20c3c9d9203e49
   - enabled: 1
+    path: Assets/Controls.unity
+    guid: 3b35ff2f5110d41c68977b481369986a
+  - enabled: 1
     path: Assets/ChooseMode.unity
     guid: 25ca8f3d0156644ff97bd67827e9102c
   - enabled: 1

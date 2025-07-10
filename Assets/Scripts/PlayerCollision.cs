@@ -97,6 +97,7 @@ public class PlayerCollision : MonoBehaviour
     private IEnumerator FlashPlayer()
     {
         if (playerRenderer == null) yield break;
+        Time.timeScale = 0;
         for (int i = 0; i < flashCount; i++)
         {
             playerRenderer.enabled = false;
@@ -104,5 +105,6 @@ public class PlayerCollision : MonoBehaviour
             playerRenderer.enabled = true;
             yield return new WaitForSecondsRealtime(flashDuration / (flashCount * 2));
         }
+        Time.timeScale = 1;
     }
 }

@@ -35,6 +35,12 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadSceneWithDelay());
     }
 
+    public void Back() {
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        StartCoroutine(LoadStartSceneWithDelay());
+    }
+
     private IEnumerator LoadSceneWithDelay() {
         yield return new WaitForSecondsRealtime(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -65,9 +71,9 @@ public class GameManager : MonoBehaviour
 
     public void TryAgain() {
         Time.timeScale = 1;
-        Destroy(LifeManager.instance.gameObject);
         if (buttonSound != null)
             buttonSound.PlayClickSound();
+        Destroy(LifeManager.instance.gameObject);
         StartCoroutine(LoadStartSceneWithDelay());
     }
 

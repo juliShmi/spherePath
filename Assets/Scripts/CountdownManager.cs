@@ -18,9 +18,9 @@ public class CountdownManager : MonoBehaviour
     
     [Header("Countdown Sounds")]
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip countdownClip; // Весь файл 3-2-1-GO
-    [SerializeField] private float[] soundStartTimes; // Временные метки начала каждого звука
-    [SerializeField] private float[] soundDurations;  // Длительность каждого звука
+    [SerializeField] private AudioClip countdownClip;
+    [SerializeField] private float[] soundStartTimes; 
+    [SerializeField] private float[] soundDurations;  
     
     [Header("Player Control")]
     [SerializeField] private PlayerMovementScript playerMovement;
@@ -168,12 +168,12 @@ public class CountdownManager : MonoBehaviour
         for (int i = countdownDuration; i > 0; i--)
         {
             UpdateCountdownText(i.ToString());
-            PlayCountdownSound(countdownDuration - i); // 0:3, 1:2, 2:1
+            PlayCountdownSound(countdownDuration - i);
             yield return new WaitForSecondsRealtime(countdownInterval);
         }
 
         UpdateCountdownText("GO!");
-        PlayCountdownSound(soundStartTimes.Length - 1); // последний — GO!
+        PlayCountdownSound(soundStartTimes.Length - 1);
         yield return new WaitForSecondsRealtime(goDisplayTime);
 
         ResumeGame();

@@ -28,7 +28,7 @@ public class ScoreScript : MonoBehaviour
             float remainingDistance = finishLine.position.z - player.position.z;
             
             if (remainingDistance > 0) {
-                scoreText.text = SceneManager.GetActiveScene().name + "\n" + remainingDistance.ToString("0") + "m to finish";
+                scoreText.text = SceneManager.GetActiveScene().name + "\n" + remainingDistance.ToString("0") + " m left";
             } else {
                 scoreText.text = SceneManager.GetActiveScene().name + "\nFINISH!";
             }

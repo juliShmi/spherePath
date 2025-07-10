@@ -15,10 +15,17 @@ public class Menu : MonoBehaviour
 
     private IEnumerator LoadSceneWithDelay() {
         yield return new WaitForSecondsRealtime(0.2f);
-        StartGame();
+        SceneManager.LoadScene("ChooseMode");
     }
-    
-    public void StartGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+    public void ControlsWithSound() {
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        StartCoroutine(LoadControlsSceneWithDelay());
+    }
+
+    private IEnumerator LoadControlsSceneWithDelay() {
+        yield return new WaitForSecondsRealtime(0.2f);
+        SceneManager.LoadScene("Controls");
     }
 }

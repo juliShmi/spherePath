@@ -17,6 +17,7 @@ public class PlayerMovementScript : MonoBehaviour {
     private bool isOnStage = false;
     private bool isPaused = false;
     private bool controlPanelShowed = false;
+    private bool wasPausedBeforeControlPanel = false;
     
 
     public GameObject particleObject;
@@ -47,7 +48,7 @@ public class PlayerMovementScript : MonoBehaviour {
             return;
         }
         
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (!controlPanelShowed && Input.GetKeyDown(KeyCode.Space)) {
             PauseGame();
         }
 
@@ -121,14 +122,21 @@ public class PlayerMovementScript : MonoBehaviour {
     private void ShowControlPanel() {
         controlPanelShowed = !controlPanelShowed;
         if (controlPanelShowed) {
+            wasPausedBeforeControlPanel = isPaused;
             Time.timeScale = 0f;
             if (controlPanel != null) {
                 controlPanel.SetActive(true);
             }
         } else {
-            Time.timeScale = 1f;
             if (controlPanel != null) {
                 controlPanel.SetActive(false);
+            }
+            if (wasPausedBeforeControlPanel) {
+                Time.timeScale = 0f;
+                if (pauseUI != null) pauseUI.SetActive(true);
+            } else {
+                Time.timeScale = 1f;
+                if (pauseUI != null) pauseUI.SetActive(false);
             }
         }
     }

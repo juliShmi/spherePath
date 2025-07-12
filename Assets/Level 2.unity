@@ -963,6 +963,10 @@ PrefabInstance:
       propertyPath: countdownPanel
       value: 
       objectReference: {fileID: 329542331936319909}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 1908748258}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4132,6 +4136,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+--- !u!1 &1384991099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1953591617016891800, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1432181280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4926,6 +4935,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84043c78204f1445cba680ee2bd7b878, type: 3}
+--- !u!1 &1908748258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5428176340980171048, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1921926055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5843,6 +5857,10 @@ PrefabInstance:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 422179731}
+    - target: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 1908748258}
     - target: {fileID: 5099914074532526002, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5964,8 +5982,12 @@ PrefabInstance:
       value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: controlPanel
+      value: 
+      objectReference: {fileID: 1384991099}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: forwardForce
-      value: 3500
+      value: 4000
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: sidewaysForce

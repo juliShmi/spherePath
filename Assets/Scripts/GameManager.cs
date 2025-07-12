@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeLevelUI;
     public GameObject lifePanel;
-    public GameObject failPanel; 
+    public GameObject failPanel;
+    public GameObject tabKeyInfoPanel;
     private ButtonSound buttonSound;
 
     void Awake() {
@@ -60,6 +61,7 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel() {
         completeLevelUI.SetActive(true);
         lifePanel.SetActive(false);
+        tabKeyInfoPanel.SetActive(false);
     }
 
     public void ShowFailPanel() {
@@ -67,6 +69,7 @@ public class GameManager : MonoBehaviour
         if (failPanel != null) {
             failPanel.SetActive(true);
         } 
+        tabKeyInfoPanel.SetActive(false);
     } 
 
     public void TryAgain() {

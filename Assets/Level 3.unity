@@ -834,6 +834,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+--- !u!1 &207066470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5428176340980171048, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 1665987080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &228198206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1097,6 +1102,10 @@ PrefabInstance:
       propertyPath: countdownPanel
       value: 
       objectReference: {fileID: 1665987084}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 207066470}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1419,6 +1428,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+--- !u!1 &332909542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1953591617016891800, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 1665987080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &332909543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043315879686391915, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 1665987080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &384190138
 GameObject:
   m_ObjectHideFlags: 0
@@ -8231,6 +8250,10 @@ PrefabInstance:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 1665987086}
+    - target: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 207066470}
     - target: {fileID: 5099914074532526002, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8346,14 +8369,18 @@ PrefabInstance:
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: pauseUI
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 332909543}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: jumpForce
       value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: controlPanel
+      value: 
+      objectReference: {fileID: 332909542}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: forwardForce
-      value: 3500
+      value: 4500
       objectReference: {fileID: 0}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: sidewaysForce

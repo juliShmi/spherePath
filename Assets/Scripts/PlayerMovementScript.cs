@@ -5,6 +5,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public Rigidbody rb;
     public GameObject pauseUI;
+    public GameObject controlPanel;
 
     public AudioSource audioSource;
     public AudioClip jumpSound;
@@ -15,6 +16,7 @@ public class PlayerMovementScript : MonoBehaviour {
     private bool jumpPressed = false;
     private bool isOnStage = false;
     private bool isPaused = false;
+    private bool controlPanelShowed = false;
     
 
     public GameObject particleObject;
@@ -23,7 +25,8 @@ public class PlayerMovementScript : MonoBehaviour {
     
     private CountdownManager countdownManager;
 
-    void Start() {
+    void Start() 
+    {
         if (audioSource == null) {
             audioSource = GetComponent<AudioSource>();
         }
@@ -33,7 +36,9 @@ public class PlayerMovementScript : MonoBehaviour {
         if (pauseUI != null) {
             pauseUI.SetActive(false);
         }
-        
+        if (controlPanel != null) {
+            controlPanel.SetActive(false);
+        }
         countdownManager = FindFirstObjectByType<CountdownManager>();
     }
 
@@ -44,6 +49,10 @@ public class PlayerMovementScript : MonoBehaviour {
         
         if (Input.GetKeyDown(KeyCode.Space)) {
             PauseGame();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab)) {
+            ShowControlPanel();
         }
 
         if (isPaused) {
@@ -107,6 +116,21 @@ public class PlayerMovementScript : MonoBehaviour {
             isOnStage = false;
         }
         
+    }
+
+    private void ShowControlPanel() {
+        controlPanelShowed = !controlPanelShowed;
+        if (controlPanelShowed) {
+            Time.timeScale = 0f;
+            if (controlPanel != null) {
+                controlPanel.SetActive(true);
+            }
+        } else {
+            Time.timeScale = 1f;
+            if (controlPanel != null) {
+                controlPanel.SetActive(false);
+            }
+        }
     }
 
     private void PauseGame() {

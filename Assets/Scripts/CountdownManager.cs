@@ -10,6 +10,7 @@ public class CountdownManager : MonoBehaviour
     [SerializeField] private GameObject countdownPanel;
     [SerializeField] private GameObject lifePanel;
     [SerializeField] private GameObject scorePanel;
+    [SerializeField] private GameObject tabKeyInfoPanel;
     
     [Header("Countdown Settings")]
     [SerializeField] private int countdownDuration = 3;
@@ -137,6 +138,8 @@ public class CountdownManager : MonoBehaviour
     {
         if (countdownPanel != null)
             countdownPanel.SetActive(true);
+        if (tabKeyInfoPanel != null)
+            tabKeyInfoPanel.SetActive(false);
         if (lifePanel != null)
             lifePanel.SetActive(false);
         if (scorePanel != null)
@@ -147,6 +150,8 @@ public class CountdownManager : MonoBehaviour
     {
         if (countdownPanel != null)
             countdownPanel.SetActive(false);
+        if (tabKeyInfoPanel != null)
+            tabKeyInfoPanel.SetActive(true);
         if (lifePanel != null)
             lifePanel.SetActive(true);
         if (scorePanel != null)

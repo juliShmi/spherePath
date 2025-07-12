@@ -1031,6 +1031,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: effbe14b6873d4e5b8dcd374c5515349, type: 3}
+--- !u!1 &1174580964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1953591617016891800, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1200777863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1458,6 +1463,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881a1a11d276f4c2485da9e0b4694fc7, type: 3}
+--- !u!1 &1328420195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5428176340980171048, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1376219450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3003,6 +3013,10 @@ PrefabInstance:
       propertyPath: countdownPanel
       value: 
       objectReference: {fileID: 979838869}
+    - target: {fileID: 8652250005520816573, guid: 92450e81874e042c5b07a916cdea0521, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 1328420195}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3252,6 +3266,10 @@ PrefabInstance:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 422179731}
+    - target: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+      propertyPath: tabKeyInfoPanel
+      value: 
+      objectReference: {fileID: 1328420195}
     - target: {fileID: 5099914074532526002, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3361,6 +3379,10 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 5.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
+      propertyPath: controlPanel
+      value: 
+      objectReference: {fileID: 1174580964}
     - target: {fileID: 2470615379725885562, guid: 5544881ea243f4617b5053f97a209b17, type: 3}
       propertyPath: forwardForce
       value: 3500

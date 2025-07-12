@@ -3214,6 +3214,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+--- !u!1 &1029337895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7583656940775112659, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1064798952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5500,6 +5505,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -40
       objectReference: {fileID: 0}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7092195890973097107}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2368585232651881379, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5861,6 +5878,10 @@ PrefabInstance:
       propertyPath: tabKeyInfoPanel
       value: 
       objectReference: {fileID: 1908748258}
+    - target: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+      propertyPath: restartLevelButton
+      value: 
+      objectReference: {fileID: 1029337895}
     - target: {fileID: 5099914074532526002, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

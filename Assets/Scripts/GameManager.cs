@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject lifePanel;
     public GameObject failPanel;
     public GameObject tabKeyInfoPanel;
+    public GameObject restartLevelButton;
     private ButtonSound buttonSound;
 
     void Awake() {
@@ -70,6 +71,10 @@ public class GameManager : MonoBehaviour
             failPanel.SetActive(true);
         } 
         tabKeyInfoPanel.SetActive(false);
+
+        if (restartLevelButton != null) {
+        restartLevelButton.SetActive(GameManager.selectedMode != GameMode.HARD);
+    }
     } 
 
     public void TryAgain() {
@@ -78,6 +83,19 @@ public class GameManager : MonoBehaviour
             buttonSound.PlayClickSound();
         Destroy(LifeManager.instance.gameObject);
         StartCoroutine(LoadStartSceneWithDelay());
+    }
+
+    public void RestartLevel() {
+        if (buttonSound != null)
+            buttonSound.PlayClickSound();
+        LifeManager.instance.GameOverTryAgain();
+        StartCoroutine(LoadCurrentSceneWithDelay());
+    }
+
+
+    private IEnumerator LoadCurrentSceneWithDelay() {
+            yield return new WaitForSecondsRealtime(0.2f);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private IEnumerator LoadStartSceneWithDelay() {

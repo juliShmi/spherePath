@@ -555,6 +555,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ce881413adf945aeb36043a08b3f11c, type: 3}
+--- !u!1 &697217087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7583656940775112659, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+  m_PrefabInstance: {fileID: 329542331936319905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 1930575550464053128, guid: d6a552c8f6cee41e1a3296c886a6bae4, type: 3}
@@ -2747,6 +2752,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -40
       objectReference: {fileID: 0}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 756520732}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221796301572201530, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2368585232651881379, guid: 13ade29fa302c45c99763f09842c3653, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3270,6 +3287,10 @@ PrefabInstance:
       propertyPath: tabKeyInfoPanel
       value: 
       objectReference: {fileID: 1328420195}
+    - target: {fileID: 3448566773978534275, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
+      propertyPath: restartLevelButton
+      value: 
+      objectReference: {fileID: 697217087}
     - target: {fileID: 5099914074532526002, guid: 87b6e6200f2094b128d464a46a3c1f29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

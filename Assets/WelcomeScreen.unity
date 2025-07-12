@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a802b4044994e5eba8fbd18a799514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointerCursor: {fileID: 2800000, guid: fc21b63acecf6488baefbc6ec63a8fbc, type: 3}
+  pointerCursor: {fileID: 2800000, guid: a2df1382ea89045a689cd6a9110dceb5, type: 3}
 --- !u!1 &114999780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a802b4044994e5eba8fbd18a799514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointerCursor: {fileID: 2800000, guid: fc21b63acecf6488baefbc6ec63a8fbc, type: 3}
+  pointerCursor: {fileID: 2800000, guid: a2df1382ea89045a689cd6a9110dceb5, type: 3}
 --- !u!1 &1613425301
 GameObject:
   m_ObjectHideFlags: 0

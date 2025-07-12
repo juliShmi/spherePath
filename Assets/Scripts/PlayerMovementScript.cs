@@ -59,7 +59,7 @@ public class PlayerMovementScript : MonoBehaviour {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) {
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isOnStage) {
             jumpPressed = true;
             if (audioSource != null && jumpSound != null) {
                 audioSource.PlayOneShot(jumpSound);
@@ -98,9 +98,9 @@ public class PlayerMovementScript : MonoBehaviour {
         }
 
         if (jumpPressed && isOnStage) {
-            rb.AddForce(0, jumpForce, 0, ForceMode.VelocityChange);
             jumpPressed = false;
             isOnStage = false;
+            rb.AddForce(0, jumpForce, 0, ForceMode.VelocityChange);
         }
     }
 

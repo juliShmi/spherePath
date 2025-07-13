@@ -17,6 +17,7 @@ public class PlayerCollision : MonoBehaviour
 
     private Collider stageCollider;
     private float ballRadius;
+    private bool isInvincible = false;
 
 
     void Start() 
@@ -43,7 +44,7 @@ public class PlayerCollision : MonoBehaviour
 
     void OnCollisionEnter(Collision collisionInfo) 
     {
-        if (collisionInfo.collider.tag == "Obstacle" && !isCollided) {
+        if (collisionInfo.collider.tag == "Obstacle" && !isCollided && !isInvincible) {
             HandleObstacleCollision();
         }
     }
@@ -111,6 +112,7 @@ public class PlayerCollision : MonoBehaviour
     private IEnumerator FlashPlayer()
     {
         if (playerRenderer == null) yield break;
+        isInvincible = true;
         Time.timeScale = 0;
         for (int i = 0; i < flashCount; i++)
         {
@@ -120,5 +122,7 @@ public class PlayerCollision : MonoBehaviour
             yield return new WaitForSecondsRealtime(flashDuration / (flashCount * 2));
         }
         Time.timeScale = 1;
+        yield return new WaitForSecondsRealtime(2f);
+        isInvincible = false;
     }
 }
